@@ -29,7 +29,8 @@ Bmw b = new Bmw();
 TasitMetot(b);
 */
 
-Console.WriteLine(typeof(Mercedes).BaseType.BaseType.Name);
+// bir sınıfın türediği sınıfı görmek için gerekli olan kod!!!
+Console.WriteLine(typeof(Mercedes).Name);
 
 static void TasitMetot(Tasit tasit)
 {
@@ -42,7 +43,10 @@ static void TasitMetot(Tasit tasit)
     //Mercedes mercedes = (Mercedes)tasit;
     //Console.WriteLine(mercedes.Enerji);
     //Console.WriteLine(mercedes.Konfor)
-    // is keyword'ü : iki tipi birbiri ile kıyaslar!!
+    // is keyword'ü : iki tipi birbiri ile kıyaslar!! ve karşılaştırma aşamasında karşılaştırdıkları şeyler aynı ise 
+    // true değeri döner!!
+    //
+
     if(tasit is Mercedes){
         var mercedes = (Mercedes)tasit;
         Console.WriteLine(mercedes.Konfor);
