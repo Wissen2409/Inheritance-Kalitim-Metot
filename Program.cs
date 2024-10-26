@@ -1,4 +1,4 @@
-﻿
+﻿using MercedesAraclar;
 
 
 // bir tane metot yazalım ve bu kalıtım yapısı içerisindeki her sınıf bu metoda parametre olarak geçebilsin!!
@@ -29,6 +29,10 @@ Bmw b = new Bmw();
 TasitMetot(b);
 */
 
+
+
+//mercedes nesnesi üzerinden ulaştığımız bazı metotlar var
+Console.WriteLine("To String "+m.ToString());
 // bir sınıfın türediği sınıfı görmek için gerekli olan kod!!!
 Console.WriteLine(typeof(Mercedes).Name);
 

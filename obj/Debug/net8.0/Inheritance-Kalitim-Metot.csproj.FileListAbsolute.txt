@@ -12,3 +12,4 @@
 /Users/emrahelis/Inheritance-Kalitim-Metot/obj/Debug/net8.0/Inheritance-Kalitim-Metot.pdb
 /Users/emrahelis/Inheritance-Kalitim-Metot/obj/Debug/net8.0/Inheritance-Kalitim-Metot.genruntimeconfig.cache
 /Users/emrahelis/Inheritance-Kalitim-Metot/obj/Debug/net8.0/ref/Inheritance-Kalitim-Metot.dll
+/Users/emrahelis/Inheritance-Kalitim-Metot/obj/Debug/net8.0/Inheritance-Kalitim-Metot.sourcelink.json
